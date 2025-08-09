@@ -1,7 +1,7 @@
 # Run n8n in podman locally
 
 ## Pull the n8n image
-podman pull docker.io/n8nio/n8n
+`podman pull docker.io/n8nio/n8n`
 
 ## run locally on port 5678
 podman run -d --name n8n -p 5678:5678 n8nio/n8n
