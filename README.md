@@ -10,6 +10,7 @@
 `podman logs -f n8n`
 
 ## stop after use
-`podman ps`
-`podman stop n8n`
-
+```
+podman ps
+podman stop n8n
+```
